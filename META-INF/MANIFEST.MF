@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Rcpyingyuanxitong
+Bundle-SymbolicName: rcpyingyuanxitong; singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: cn.com.shxt.core.Activator
+Bundle-Vendor: 影院系统
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: mysql-connector-java-5.0.4-bin.jar,
+ .,
+ jcommon-1.0.12.jar,
+ jfreechart-1.0.9.jar,
+ QRCode.jar
